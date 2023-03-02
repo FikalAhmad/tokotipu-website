@@ -12,12 +12,17 @@ const LoginPage = () => {
                 <p className="text-5xl font-jakartabold">Welcome back</p>
                 <p className="text-gray-400">Log in to your account</p>
               </div>
-              <div>
-                <form action="/" className="flex flex-col">
-                  <label>Email</label>
-                  <input type="email" placeholder="email"></input>
-                  <label>Password</label>
-                  <input type="password" placeholder="password"></input>
+              <div className="flex justify-center border-2">
+                <form action="/" className="flex flex-col w-96">
+                  <label className="">
+                    Email:
+                    <input type="email" className="ml-5"></input>
+                  </label>
+                  <label className="">
+                    Password:
+                    <input type="password"></input>
+                  </label>
+                  <button className="">Login</button>
                 </form>
               </div>
             </div>

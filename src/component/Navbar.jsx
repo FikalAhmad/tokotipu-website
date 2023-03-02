@@ -22,7 +22,7 @@ const Navbar = () => {
         </ul>
         <div>
           <button className="text-ijo-muda mr-5 px-8 py-2 border-2 rounded-md border-ijo-muda">
-            Login
+            <Link to="/login">Login</Link>
           </button>
           <button className="text-white px-8 py-2 bg-ijo-muda rounded-md">
             Daftar
