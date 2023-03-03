@@ -25,7 +25,7 @@ const Navbar = () => {
             <Link to="/login">Login</Link>
           </button>
           <button className="text-white px-8 py-2 bg-ijo-muda rounded-md">
-            Daftar
+            <Link to="/daftar">Daftar</Link>
           </button>
         </div>
       </nav>
